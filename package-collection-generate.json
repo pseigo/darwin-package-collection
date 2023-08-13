@@ -1,0 +1,29 @@
+{
+  "name": "Fidryn's Package Collection",
+  "overview": "Fidryn's common packages.",
+  "keywords": ["fidryn"],
+  "packages": [
+    {
+      "url": "git@github.com:apple/swift-openapi-generator.git",
+      "summary": "OpenAPI Generator",
+      "versions": ["0.1.8"],
+      "readmeURL": "https://github.com/apple/swift-openapi-generator/README"
+    },
+    {
+      "url": "git@github.com:apple/swift-openapi-runtime.git",
+      "summary": "OpenAPI Generator - Runtime",
+      "versions": ["0.1.8"],
+      "readmeURL": "https://github.com/apple/swift-openapi-runtime/README"
+    },
+    {
+      "url": "git@github.com:apple/swift-openapi-urlsession.git",
+      "summary": "OpenAPI Generator - Transport Adapter - URLSession",
+      "versions": ["0.1.2"],
+      "readmeURL": "https://github.com/apple/swift-openapi-urlsession/README"
+    },
+  ],
+  "author": {
+    "name": "Peyton Seigo"
+  }
+}
+
