@@ -1,6 +1,6 @@
 {
   "formatVersion": "1.0",
-  "generatedAt": "2023-08-13T01:17:27Z",
+  "generatedAt": "2023-08-13T01:38:58Z",
   "generatedBy": { "name": "Peyton Seigo" },
   "keywords": ["fidryn"],
   "name": "Fidryn's Package Collection",
@@ -21,7 +21,7 @@
       },
       "readmeURL": "https://github.com/apple/swift-openapi-generator/README",
       "summary": "OpenAPI Generator",
-      "url": "git@github.com:apple/swift-openapi-generator.git",
+      "url": "https://github.com/apple/swift-openapi-generator",
       "versions": [
         {
           "defaultToolsVersion": "5.8",
@@ -89,7 +89,7 @@
       },
       "readmeURL": "https://github.com/apple/swift-openapi-runtime/README",
       "summary": "OpenAPI Generator - Runtime",
-      "url": "git@github.com:apple/swift-openapi-runtime.git",
+      "url": "https://github.com/apple/swift-openapi-runtime",
       "versions": [
         {
           "defaultToolsVersion": "5.8",
@@ -127,7 +127,7 @@
       },
       "readmeURL": "https://github.com/apple/swift-openapi-urlsession/README",
       "summary": "OpenAPI Generator - Transport Adapter - URLSession",
-      "url": "git@github.com:apple/swift-openapi-urlsession.git",
+      "url": "https://github.com/apple/swift-openapi-urlsession",
       "versions": [
         {
           "defaultToolsVersion": "5.8",

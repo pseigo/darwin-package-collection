@@ -4,19 +4,19 @@
   "keywords": ["fidryn"],
   "packages": [
     {
-      "url": "git@github.com:apple/swift-openapi-generator.git",
+      "url": "https://github.com/apple/swift-openapi-generator",
       "summary": "OpenAPI Generator",
       "versions": ["0.1.8"],
       "readmeURL": "https://github.com/apple/swift-openapi-generator/README"
     },
     {
-      "url": "git@github.com:apple/swift-openapi-runtime.git",
+      "url": "https://github.com/apple/swift-openapi-runtime",
       "summary": "OpenAPI Generator - Runtime",
       "versions": ["0.1.8"],
       "readmeURL": "https://github.com/apple/swift-openapi-runtime/README"
     },
     {
-      "url": "git@github.com:apple/swift-openapi-urlsession.git",
+      "url": "https://github.com/apple/swift-openapi-urlsession",
       "summary": "OpenAPI Generator - Transport Adapter - URLSession",
       "versions": ["0.1.2"],
       "readmeURL": "https://github.com/apple/swift-openapi-urlsession/README"
