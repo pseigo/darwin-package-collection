@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.0",
+  "generatedAt": "2023-08-13T01:17:27Z",
+  "generatedBy": { "name": "Peyton Seigo" },
+  "keywords": ["fidryn"],
+  "name": "Fidryn's Package Collection",
+  "overview": "Fidryn's common packages.",
+  "packages": [
+    {
+      "keywords": [
+        "ios-swift",
+        "openapi",
+        "plugin",
+        "server-side-swift",
+        "swift",
+        "swiftpm"
+      ],
+      "license": {
+        "name": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/apple/swift-openapi-generator/main/LICENSE.txt"
+      },
+      "readmeURL": "https://github.com/apple/swift-openapi-generator/README",
+      "summary": "OpenAPI Generator",
+      "url": "git@github.com:apple/swift-openapi-generator.git",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.8",
+          "manifests": {
+            "5.8": {
+              "minimumPlatformVersions": [
+                { "name": "macos", "version": "10.15" },
+                { "name": "ios", "version": "13.0" },
+                { "name": "tvos", "version": "13.0" },
+                { "name": "watchos", "version": "6.0" }
+              ],
+              "packageName": "swift-openapi-generator",
+              "products": [
+                {
+                  "name": "OpenAPIGenerator",
+                  "targets": ["OpenAPIGenerator"],
+                  "type": { "plugin": null }
+                },
+                {
+                  "name": "OpenAPIGeneratorCommand",
+                  "targets": ["OpenAPIGeneratorCommand"],
+                  "type": { "plugin": null }
+                },
+                {
+                  "name": "_OpenAPIGeneratorCore",
+                  "targets": ["_OpenAPIGeneratorCore"],
+                  "type": { "library": ["automatic"] }
+                },
+                {
+                  "name": "swift-openapi-generator",
+                  "targets": ["swift-openapi-generator"],
+                  "type": { "executable": null }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "OpenAPIGenerator",
+                  "name": "OpenAPIGenerator"
+                },
+                {
+                  "moduleName": "OpenAPIGeneratorCommand",
+                  "name": "OpenAPIGeneratorCommand"
+                },
+                {
+                  "moduleName": "_OpenAPIGeneratorCore",
+                  "name": "_OpenAPIGeneratorCore"
+                },
+                {
+                  "moduleName": "swift_openapi_generator",
+                  "name": "swift-openapi-generator"
+                }
+              ],
+              "toolsVersion": "5.8"
+            }
+          },
+          "version": "0.1.8"
+        }
+      ]
+    },
+    {
+      "keywords": ["middleware", "openapi", "swift", "transport"],
+      "license": {
+        "name": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/apple/swift-openapi-runtime/main/LICENSE.txt"
+      },
+      "readmeURL": "https://github.com/apple/swift-openapi-runtime/README",
+      "summary": "OpenAPI Generator - Runtime",
+      "url": "git@github.com:apple/swift-openapi-runtime.git",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.8",
+          "manifests": {
+            "5.8": {
+              "minimumPlatformVersions": [
+                { "name": "macos", "version": "10.15" },
+                { "name": "ios", "version": "13.0" },
+                { "name": "tvos", "version": "13.0" },
+                { "name": "watchos", "version": "6.0" }
+              ],
+              "packageName": "swift-openapi-runtime",
+              "products": [
+                {
+                  "name": "OpenAPIRuntime",
+                  "targets": ["OpenAPIRuntime"],
+                  "type": { "library": ["automatic"] }
+                }
+              ],
+              "targets": [
+                { "moduleName": "OpenAPIRuntime", "name": "OpenAPIRuntime" }
+              ],
+              "toolsVersion": "5.8"
+            }
+          },
+          "version": "0.1.8"
+        }
+      ]
+    },
+    {
+      "keywords": ["openapi", "swift", "transport", "urlsession"],
+      "license": {
+        "name": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/apple/swift-openapi-urlsession/main/LICENSE.txt"
+      },
+      "readmeURL": "https://github.com/apple/swift-openapi-urlsession/README",
+      "summary": "OpenAPI Generator - Transport Adapter - URLSession",
+      "url": "git@github.com:apple/swift-openapi-urlsession.git",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.8",
+          "manifests": {
+            "5.8": {
+              "minimumPlatformVersions": [
+                { "name": "macos", "version": "10.15" },
+                { "name": "ios", "version": "13.0" },
+                { "name": "tvos", "version": "13.0" },
+                { "name": "watchos", "version": "6.0" }
+              ],
+              "packageName": "swift-openapi-urlsession",
+              "products": [
+                {
+                  "name": "OpenAPIURLSession",
+                  "targets": ["OpenAPIURLSession"],
+                  "type": { "library": ["automatic"] }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "OpenAPIURLSession",
+                  "name": "OpenAPIURLSession"
+                }
+              ],
+              "toolsVersion": "5.8"
+            }
+          },
+          "version": "0.1.2"
+        }
+      ]
+    }
+  ]
+}
